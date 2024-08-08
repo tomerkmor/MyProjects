@@ -1,0 +1,57 @@
+.items-list{
+    display: none;
+    /* background: #1167b1; */
+    background: #35b1c3;
+    margin: 0 auto;
+    padding-top:20px;
+    padding-bottom: 5px;
+    width:90%;
+    border: 3px solid #f7fffe;
+    border-top: none;
+    font-size: 18px;
+  }
+
+  .listItemParent2{
+    margin-bottom: 10px;
+  }
+
+  .listItem2{
+    margin: 0 auto;
+    display: flex;
+    background: #f7fffe;
+    position: relative;
+    width: 75%;
+    /* margin-right: 35px;
+    margin-left:-5px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+  }
+  
+  .listItem2Warning{
+    margin: 0 auto;
+    background: #FEC764;
+    display: flex;
+    /* background: #f7fffe; */
+    position: relative;
+    width: 75%;
+    /* margin-right: 35px;
+    margin-left:-5px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+  }
+  
+  .listItem2Danger{
+    margin: 0 auto;
+    background: #FF5349;
+    display: flex;
+    /* background: #f7fffe; */
+    position: relative;
+    width: 75%;
+    /* margin-right: 35px;
+    margin-left:-5px; */
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+  }

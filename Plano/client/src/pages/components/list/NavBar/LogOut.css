@@ -1,0 +1,10 @@
+.log-out{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 83, 73);
+    font-size: 40px;
+    font-weight: bold;
+}

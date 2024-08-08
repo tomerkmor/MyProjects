@@ -1,0 +1,49 @@
+.content{
+    height: 85vh;
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+.block{
+    height: 24%;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.block-title{
+    width: 40%;
+    padding: 10px;
+    border-right: 2px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    margin-top:20px;
+}
+
+input {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 10px auto;
+    font-size: 1em;
+    margin-top: 20px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    width: 50%;
+    border-radius: 5px;
+}
+

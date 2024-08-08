@@ -1,0 +1,13 @@
+/* .notifications {
+    flex-direction: row;
+} */
+
+.noti-button{
+    font-size: 1.2em;
+    margin: 0 5px 0 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: aliceblue;
+    padding-left: 8px;
+    padding-right: 8px;
+}

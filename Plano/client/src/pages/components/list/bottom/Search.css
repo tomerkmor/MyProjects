@@ -1,0 +1,19 @@
+.search-wrapper{
+
+    gap: .25rem;
+    margin-top: 10px;
+    
+  }
+  
+  .search-wrapper input {
+    position: absolute;
+    font-size: 1rem;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background: #f7fffe;
+    border-radius: 15px;
+    border: none;
+    bottom: calc(15% + 20px);
+    display: flex
+  }
