@@ -1,0 +1,10 @@
+git init
+git add .
+git commit -m "context"
+git remote add origin https://github.com/tomerkmor/MyProjects.git
+
+maybe: 
+    git remote remove origin
+    git remote add origin https://github.com/tomerkmor/MyProjects.git
+
+git push -u -f origin main
