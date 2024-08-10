@@ -20,7 +20,7 @@ const Url = mongoose.model('Url', urlSchema)
 // Basic Configuration
 app.use(cors());
 app.use(express.json())
-// helps us to make sure we can acce req.body
+// helps us to make sure we can access req.body
 app.use(express.urlencoded({extended: true})) 
 
 app.use('/public', express.static(`${process.cwd()}/public`));
